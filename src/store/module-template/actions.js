@@ -1,4 +1,4 @@
 
-// export const myAction = async ( { state } ) => {
+// export const myAction = async ( { commit } ) => {
 
 // }

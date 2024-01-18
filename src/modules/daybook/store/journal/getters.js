@@ -16,7 +16,7 @@ export const getEntryById = ( state ) => ( id = '' ) => {
     // Lo guardamos en una variable, porque si retornamos directamente el resultado, 
     // lo mandaremos por referencia y si  luego queremos trabajar con ese resultado, 
     // estariamos modificando directamente el state, lo cual es algo que no debemos hacer desde los getters
-    const entry =  state.entries.find( entry => entry.id === id) 
+    const entry = state.entries.find( entry => entry.id === id) 
 
     if (!entry) return
 
